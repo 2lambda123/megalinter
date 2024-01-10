@@ -11,6 +11,12 @@ Posts a status on the pull request for each processed linter.\n\nClick on **Deta
 
 Click on **Details** to access detailed logs
 
+In case of failure, please check the GitHub Status Reporter in the related pull request for specific error logs
+
+Click on
+
+In case of failure, please check the GitHub Status Reporter in the related pull request for specific error logs **Details** to access detailed logs
+
 ![Screenshot](../assets/images/GitHubStatusReporter.jpg)
 
 ## Configuration
