@@ -1,10 +1,10 @@
 ---
 title: Text Reporter for MegaLinter
-description: Generate SAST results as text logs for each linter
+description: Generate error logs for each linter, including specific error messages to be checked in case of a failure
 ---
 # Text Reporter
 
-Generate text logs for each linter
+Generate error logs for each linter, including specific error messages to be checked in case of a failure
 
 - General execution log `mega-linter.log` (same as [ConsoleReporter](ConsoleReporter.md) log)
 - A separate log file for each processed linter
