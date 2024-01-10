@@ -9,7 +9,11 @@ Posts MegaLinter results summary in the comments of the related pull request (if
 
 ## Usage
 
-Click on hyperlinks to access detailed logs
+To access the error logs and specific error messages, please check the GitHub Comment Reporter in the related pull request.
+
+Click on hyperlinks to access detailed logs.
+
+In case of failure, specific error logs must be checked by referencing the GitHub Comment Reporter in the related pull request.
 
 ![Screenshot](../assets/images/GitHubCommentReporter.jpg)
 
