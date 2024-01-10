@@ -5,11 +5,14 @@ description: Posts MegaLinter SAST results summary in the comments of the relate
 <!-- markdownlint-disable MD013 MD033 MD041 -->
 # Azure Comment Reporter
 
-Posts Mega-Linter results summary in the comments of the related Azure Pipelines pull request (if existing)
+Posts Mega-Linter results summary in the comments of the related Azure Pipelines pull request (if existing).
+
+In case of failure, specific error logs that need to be checked include *MegaLinter-reports* in the main job log.
 
 ## Usage
 
-Click on **MegaLinter-reports** artifact from the main job log to view or download results.
+To access the error logs and specific error messages, please check the Azure Comment Reporter in the related pull request. Click on **MegaLinter-reports** artifact from the main job log to view or download results.
+In case of failure, specific error logs must be checked by referencing the Azure Comment Reporter in the related pull request.
 
 ![Screenshot](../assets/images/AzureCommentReporter.jpg)
 
