@@ -5,7 +5,7 @@ description: Posts a job status on the Github Pull Request for each processed li
 <!-- markdownlint-disable MD013 MD033 MD041 -->
 # GitHub Status Reporter
 
-Posts a status on the pull request for each processed linter
+Posts a status on the pull request for each processed linter.\n\nClick on **Details** to access detailed logs.\n\nIn case of failure, specific error logs must be checked by referencing the GitHub Status Reporter in the related pull request.
 
 ## Usage
 
