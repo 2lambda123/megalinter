@@ -7,9 +7,13 @@ description: Posts MegaLinter SAST results summary in the comments of the relate
 
 Posts MegaLinter results summary in the comments of the related pull request (if existing)
 
-## Usage
+## Usage Instructions
 
-Click on hyperlinks to access detailed logs
+To access detailed error logs and specific error messages, please navigate to the GitHub Comment Reporter in the related pull request.
+
+Note: You can click on hyperlinks to access detailed logs.
+
+Note: In case of failure, please check the GitHub Comment Reporter in the related pull request for specific error logs.
 
 ![Screenshot](../assets/images/GitHubCommentReporter.jpg)
 
