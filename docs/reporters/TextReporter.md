@@ -1,15 +1,20 @@
 ---
 title: Text Reporter for MegaLinter
-description: Generate SAST results as text logs for each linter
+description: Generate error logs for each linter, including specific error messages to be checked in case of a failure
 ---
 # Text Reporter
 
-Generate text logs for each linter
+Generate error logs for each linter, including specific error messages to be checked in case of a failure
 
 - General execution log `mega-linter.log` (same as [ConsoleReporter](ConsoleReporter.md) log)
+-__Note__: Generate error logs for each linter, including specific error messages to be checked in case of a failure
 - A separate log file for each processed linter
 
-## Usage
+## Usage Instructions
+-To access the error logs and specific error messages, please check the GitHub Comment Reporter in the related pull request.
++To access detailed error logs and specific error messages, please navigate to the GitHub Comment Reporter in the related pull request.
++Note: You can click on hyperlinks to access detailed logs.
++In case of failure, please check the GitHub Comment Reporter in the related pull request for specific error logs.
 
 ### Get Artifacts on GitHub Actions
 
